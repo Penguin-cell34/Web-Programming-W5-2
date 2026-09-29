@@ -14,7 +14,7 @@ public class SQLUtil {
             "neondb_owner";
 
     private static final String PASSWORD =
-            "YOUR_NEW_NEON_PASSWORD";
+            "npg_hetnUaYG9wZ3";
 
     public static Connection getConnection() throws SQLException {
 
