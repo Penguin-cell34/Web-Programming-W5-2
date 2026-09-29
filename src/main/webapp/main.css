@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #222;
+}
+
+/* Main container */
+.container {
+    width: 700px;
+    margin: 35px 0 0 39px;
+    box-sizing: border-box;
+}
+
+/* Heading */
+h1 {
+    color: #008080;
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0 0 16px 0;
+}
+
+/* Error message */
+.error-message {
+    color: #cc0000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.error {
+    color: #cc0000;
+    font-size: 15px;
+}
+
+.success {
+    color: #008000;
+    font-size: 15px;
+}
+
+/* Form */
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* Fixed label width so all inputs align */
+.form-row label {
+    width: 95px;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Text input */
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    width: 250px;
+    height: 27px;
+    box-sizing: border-box;
+    padding: 3px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid #999;
+}
+
+/* Button */
+.button-row {
+    margin-left: 95px;
+    margin-top: 11px;
+}
+
+.button-row input[type="submit"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+
+/* SQL Gateway textarea */
+textarea {
+    width: 650px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+    border: 1px solid #999;
+    resize: vertical;
+}
+
+/* General submit button */
+input[type="submit"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+/* SQL result table */
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 7px 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    background-color: #eee;
+}
+
+/* Links */
+a {
+    color: #008080;
+}

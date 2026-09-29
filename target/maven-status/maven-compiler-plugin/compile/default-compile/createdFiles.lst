@@ -1,0 +1,13 @@
+com\example\Main.class
+util\DatabaseInitializer.class
+util\DBUtil.class
+murach\FakeUserData.class
+util\MailUtilBrevo.class
+murach\User.class
+murach\SQLResult.class
+murach\UserDB.class
+util\MailUtilGmail.class
+murach\SQLGatewayDB.class
+util\SQLUtil.class
+murach\EmailListServlet.class
+murach\SQLServerServlet.class
